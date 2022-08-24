@@ -1,10 +1,11 @@
 {
-  "name": "eComAPI",
+  "name": "ecomapi",
   "version": "1.0.0",
-  "description": "",
+  "description": "API RELATED THINGS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -29,5 +30,13 @@
     "underscore": "^1.13.2",
     "winston": "^3.4.0",
     "winston-mongodb": "^5.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rks9911/NodeJSProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rks9911/NodeJSProject/issues"
+  },
+  "homepage": "https://github.com/rks9911/NodeJSProject#readme"
 }
